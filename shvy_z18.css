@@ -1,0 +1,55 @@
+/* Общие стили для всей страницы */
+body {
+    background-color: green; /* Зеленый фон всей страницы */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Стили для Блока 1 (DIV) - Желтый */
+.blok1 {
+    background-color: yellow;
+    color: red; /* Красный текст заголовка */
+    padding: 15px;
+    margin-bottom: 15px;
+    /* Размеры из таблицы для твоего варианта */
+    width: 980px; /* Пример для варианта 1 (+твой_номер_px) */
+}
+
+/* Стили для Блока 2 (SPAN внутри DIV) - Розовый */
+.blok2 {
+    display: block; /* Заставляем SPAN вести себя как блок */
+    background-color: pink;
+    color: red; /* Красный текст заголовка */
+    padding: 15px;
+    margin-bottom: 15px;
+    /* Размеры из таблицы для твоего варианта */
+    width: 1080px; /* Пример для варианта 1 (+твой_номер_px) */
+}
+
+/* Стили для Блока 3 (DIV) - Белый */
+.blok3 {
+    background-color: white;
+    color: red; /* Красный текст заголовка */
+    padding: 15px;
+    /* Размеры из таблицы для твоего варианта */
+    width: 1180px; /* Пример для варианта 1 (+твой_номер_px) */
+}
+
+/* Стили для обычного текста внутри блоков (синий/черный) */
+.tekst-blok1 { color: black; font-size: 1.1cm; } /* размер из табл */
+.tekst-blok2 { color: blue; font-size: 1cm; } /* размер из табл */
+.tekst-blok3 { color: black; font-size: 9mm; } /* размер из табл */
+
+/* Стили для списков внутри блоков */
+ul {
+    margin-top: 10px;
+    color: black;
+}
+
+/* Вид маркера списка (квадрат/круг) из таблицы */
+.blok1 ul { list-style-type: square; font-size: 0.7mm; } 
+.blok2 ul { list-style-type: circle; font-size: 8mm; }
+.blok3 ul { list-style-type: disc; font-size: 7mm; }
+
+/* Твоя_Фамилия Z18_html */

@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>Shvydkov Z14_html</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial;
+            line-height: 1.6;
+        }
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #e0e0e0;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .color-box {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            border: 1px solid #000;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 align="left">Zadanie 14: Sposoby definiowania kolorów</h1>
+
+    <table>
+        <tr>
+            <th>Metoda</th>
+            <th>Opis</th>
+            <th>Przykład zapisu</th>
+        </tr>
+        <tr>
+            <td><b>Nazwy kolorów</b></td>
+            <td>Użycie jednej ze 140 standardowych nazw angielskich.</td>
+            <td><code>color: red;</code></td>
+        </tr>
+        <tr>
+            <td><b>Szesnastkowy (HEX)</b></td>
+            <td>Zapis zaczynający się od #, po którym następuje 6 cyfr (0-F) w formacie RRGGBB.</td>
+            <td><code>color: #FF0000;</code></td>
+        </tr>
+        <tr>
+            <td><b>Skrócony HEX</b></td>
+            <td>Zapis 3-cyfrowy, gdy obie cyfry w parze są takie same.</td>
+            <td><code>color: #F00;</code></td>
+        </tr>
+        <tr>
+            <td><b>RGB</b></td>
+            <td>Definiowanie intensywności barw Red, Green, Blue w zakresie 0-255.</td>
+            <td><code>color: rgb(255, 0, 0);</code></td>
+        </tr>
+        <tr>
+            <td><b>RGBA</b></td>
+            <td>To samo co RGB, ale z czwartym parametrem "Alpha" (przezroczystość от 0.0 do 1.0).</td>
+            <td><code>color: rgba(255, 0, 0, 0.5);</code></td>
+        </tr>
+        <tr>
+            <td><b>HSL / HSLA</b></td>
+            <td>Określenie koloru poprzez odcień (Hue), nasycenie (Saturation) i jasność (Lightness).</td>
+            <td><code>color: hsl(0, 100%, 50%);</code></td>
+        </tr>
+    </table>
+<!Shvydkov zadanie 14!>
+    </body>
+</html>

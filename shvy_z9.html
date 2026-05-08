@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>Shvydkov Z9_html</title>
+    <meta charset="utf-8">
+    <style>
+        body { font-family: Arial; }
+        .ramka { border: 1px solid black; padding: 10px; background-color: #f0f0f0; margin: 10px 0; }
+        pre { margin: 0; }
+    </style>
+</head>
+<body>
+
+    <h1 align="left">Zadanie 9</h1>
+
+    <ol>
+        <li>
+            <b>Składnia teoretyczna (otoczona ramką, konieczne wcięcia):</b>
+            <div class="ramka">
+                <pre>
+selector {
+    cecha: wartość;
+}
+                </pre>
+            </div>
+        </li>
+
+        <li>
+            <b>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować?</b>
+            <p>Styl zewnętrzny wstawiany jest w sekcji <code>&lt;head&gt;</code>. Odpowiedzialny jest znacznik <code>&lt;link&gt;</code>. Może on występować wiele razy, jeśli chcemy podłączyć kilka arkuszy.</p>
+        </li>
+
+        <li>
+            <b>Jak jest najprostsza forma wstawiania stylu zewnętrznego (w ramce):</b>
+            <div class="ramka">
+                <code>&lt;link rel="stylesheet" href="nazwa_pliku.css"&gt;</code>
+            </div>
+        </li>
+
+        <li>
+            <b>Ile arkuszy styli może być dołączonych do jednego dokumentu oraz jaka zasada musi być zachowana?</b>
+            <p>Do jednego dokumentu można dołączyć dowolną liczbę arkuszy. Zasada jest taka, że arkusze dołączone później mają wyższy priorytet (mogą nadpisywać style z poprzednich arkuszy).</p>
+        </li>
+
+        <li>
+            <b>Co się dzieje w przypadku konfliktów?</b>
+            <p>W przypadku konfliktu (gdy ta sama cecha jest zdefiniowana inaczej w różnych arkuszach) brana jest pod uwagę wartość z arkusza, który został wczytany jako ostatni (zasada kaskadowości).</p>
+        </li>
+
+        <li>
+            <b>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</b>
+            <p>Tworzy się nowy plik tekstowy, wpisuje reguły CSS bez żadnych znaczników HTML i zapisuje z rozszerzeniem .css.</p>
+        </li>
+
+        <li>
+            <b>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</b>
+            <p>Specjalne edytory (np. VS Code) oferują podpowiadanie składni, kolorowanie kodu i sprawdzanie błędów w czasie rzeczywistym.</p>
+        </li>
+
+        <li>
+            <b>Jakie rozszerzenie posiadają pliki będące zewnętrznym arkuszem styli?</b>
+            <p>Pliki te posiadają rozszerzenie <b>.css</b>.</p>
+        </li>
+
+        <li>
+            <b>Jakie są zalety zewnętrznego arkusza styli?</b>
+            <ul>
+                <li>Zmiana wyglądu wielu stron naraz poprzez edycję jednego pliku.</li>
+                <li>Szybsze ładowanie stron (przeglądarka zapamiętuje plik CSS w pamięci podręcznej).</li>
+            </ul>
+        </li>
+
+        <li>
+            <b>Uwagi na temat pisania w CSS:</b>
+            <p>W CSS nie używamy tagów HTML. Każda deklaracja musi kończyć się średnikiem, a zestaw cech musi być zamknięty w nawiasach klamrowych.</p>
+        </li>
+    </ol>
+
+    </body>
+</html>
