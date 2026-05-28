@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 21</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        p {
+            color: green;
+            font-size: 14pt;
+        }
+        p#pochyly {
+            font-style: italic;
+            font-size: 20pt;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Zadanie 21: Tabela pojęć związanych z ID</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 30%;">Pojęcie</th>
+                <th>Znaczenie pojęcia uzupełnia uczeń</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Co znaczy skrót ID?</b></td>
+                <td>ID to skrót od słowa „Identyfikator”.</td>
+            </tr>
+            <tr>
+                <td><b>Jaki jest cel stosowania ID?</b></td>
+                <td>Cel to zróżnicowanie podobnych elementów na stronie i przypisanie unikalnego formatowania wybranemu obiektowi.</td>
+            </tr>
+            <tr>
+                <td><b>Jakie jest znaczenie znaku #</b></td>
+                <td>Znak # poprzedza nazwę identyfikatora w arkuszu stylów CSS, informując przeglądarkę, że styl dotyczy selektora ID.</td>
+            </tr>
+            <tr>
+                <td><b>Jak następuje wywołanie ID (wraz z wytłumaczeniem)?</b></td>
+                <td>Wywołanie następuje za pomocą zapisu <code>id="nazwa_identyfikatora"</code> wewnątrz znacznika HTML. Oznacza to powiązanie elementu HTML ze zdefiniowanym dla niego stylem w CSS.</td>
+            </tr>
+            <tr>
+                <td><b>Uwagi na temat stosowania ID (trzy konieczne wyliczenia).</b></td>
+                <td>
+                    <ol>
+                        <li>Identyfikator może wystąpić tylko jeden jedyny raz w całym dokumencie HTML.</li>
+                        <li>Używanie tego samego ID wielokrotnie na jednej stronie jest błędem składniowym (działanie takie jest błędem).</li>
+                        <li>Elementy oznaczone ID muszą być całkowicie unikatowe. Do wielokrotnego formatowania należy używać klas (class).</li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Przykład z instrukcji (Użycie ID):</h2>
+    <p>Blok tekstu o kolorze zielonym i czcionce 14pt</p>
+    <p id="pochyly">Blok tekstu o kolorze zielonym i czcionce 20pt (pochylony przez ID)</p>
+    <p>Blok tekstu o kolorze zielonym i czcionce 14pt</p>
+<! zadanie 21_shvy !>
+</body>
+</html>
